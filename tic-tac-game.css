@@ -1,0 +1,45 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    background-color: lightyellow;
+}
+h1{
+    background-color: lightyellow;
+}
+.container{
+    width: 100vw;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightyellow;
+}
+.btn{
+    width: 80px;
+    height: 80px;
+    color: black;
+    border: 1px solid black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+#re-btn{
+    width: 80px;
+    height: 40px;
+    margin-top: 10px;
+   
+}
+.game{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+}
+.heading{
+    text-align: center;
+}
+/* #result{
+    visibility: hidden;
+} */
