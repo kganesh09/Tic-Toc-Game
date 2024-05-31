@@ -29,7 +29,6 @@ function buttonNo(player){
    
 }
 
-
 function winnercheck(){
     var btn1=document.getElementById("btn1").textContent;
     var btn2=document.getElementById("btn2").textContent;
@@ -40,6 +39,7 @@ function winnercheck(){
     var btn7=document.getElementById("btn7").textContent;
     var btn8=document.getElementById("btn8").textContent;
     var btn9=document.getElementById("btn9").textContent;
+    
      // Check for player 1 winning conditions
      if(btn1 === "X" && btn2 === "X" && btn3 === "X" ||
      btn4 === "X" && btn5 === "X" && btn6 === "X" ||
